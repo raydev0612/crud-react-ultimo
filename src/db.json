@@ -1,0 +1,16 @@
+{
+  "tareas": [
+    {
+      "id": "e4a09442-bbbf-4e83-906f-77f49c90e219",
+      "name": "raydel",
+      "edad": "20",
+      "salario": "1000"
+    },
+    {
+      "id": "b71b6bc0-7e58-4a7a-8360-e33dcab097a0",
+      "name": "maria",
+      "edad": "30",
+      "salario": "1500"
+    }
+  ]
+}

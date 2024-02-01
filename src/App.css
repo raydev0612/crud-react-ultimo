@@ -1,0 +1,124 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+table {
+  margin-top: 20px;
+  width: 60%;
+}
+
+table,
+th,
+td {
+  border: 1px solid rgb(160, 160, 160);
+  border-collapse: collapse;
+}
+
+table th {
+  padding: 5px 20px;
+  background-color: gray;
+  text-transform: uppercase;
+}
+
+table td {
+  text-align: center;
+  padding: 5px 20px;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+form {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 10px;
+}
+
+form input {
+  padding: 15px 6px;
+  font-size: 24px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: #c9c9c9;
+  text-align: center;
+}
+form input:focus {
+  background-color: #fff;
+}
+
+form button {
+  padding: 15px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  background: gray;
+  color: #3d3d3d;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+
+form button:hover {
+  opacity: 0.5;
+  color: #c9c9c9;
+}
+
+.resumen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.resumenDatos {
+  display: flex;
+  gap: 10px;
+}
+
+.resumenDatos h3 {
+  background-color: #c9c9c9;
+  color: #3d3d3d;
+  padding: 12px 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btnEliminar {
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(192, 171, 171);
+  font-weight: bold;
+  color: #c9c9c9;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btnEliminar:hover {
+  opacity: 0.3;
+}
+
+.resumen h2 {
+  text-transform: uppercase;
+  color: gray;
+}
+
+.resumen h3 span {
+  color: green;
+  font-size: 26px;
+}
+
+.sinDatos {
+  color: red;
+  margin-top: 40px;
+}
